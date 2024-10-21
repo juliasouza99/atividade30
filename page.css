@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#prof {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+
+}
+
+#menu-lateral {
+    background-color: #ccc;
+    width: 250px;
+    overflow: auto;
+    float: left;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+nav a,
+ul>li {
+    list-style: none;
+    padding: 15px 0px 0px 15px;
+}
+
+#Img-prof {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+}
+
+hr {
+    border-style: dashed;
+    width: 100px;
+    margin-top: 10px;
+
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: white
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: #f4f4f4;
+}
+
+nav {
+    width: 250px;
+    background-color: #ccc;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    float: left;
+    overflow-y: auto;
+    position: relative;
+}
+
+.section-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.caixa-estrtura-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.foto {
+
+
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+#foto-banner {
+
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 800px;
+
+}
+.card-img{
+height: 150px;
+}
+
+.img-card{
+height:150px;
+width: 100%;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+
+.class-card{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    border: solid 1px #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.caixa-texto{
+    display: flex;
+    align-items: start;
+    justify-content:center;
+    flex-direction: column;  
+    width: 100%;
+}
+
+.card-btn{
+    border-radius: 7px;
+    height: 30px;
+    width: 89px;
+    font-size: 11px;
+
+}
+
+.carton{
+   box-shadow: #ccc;
+    height:280px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
